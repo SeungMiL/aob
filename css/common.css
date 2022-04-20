@@ -647,8 +647,14 @@ body.-fixed {
     left: 0;
     z-index: 2000;
     width: 100%;
-    max-height: calc(100vh - 8rem);
+    max-height: calc(100vh - 5rem);
     background-color: #fff;
+}
+
+@media (max-width : 768px) {
+    .layer {
+        max-height: calc(100vh - 5rem);
+    }
 }
 
 .layer.-active {
