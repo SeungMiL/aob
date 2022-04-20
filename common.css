@@ -904,27 +904,34 @@ body.-fixed {
 
 /* .header .func.-back{background-image: url(size.png);} */
 
-.link_ex{
+.link_ex {
     z-index: 10000000;
     display: flex;
     position: absolute;
     bottom: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    flex-wrap: wrap;
 }
 
 .link_ex li {
-    margin: 0 2rem;
+    margin: 1rem 1rem;
 }
 
 
-.link_ex li a{
+.link_ex li a {
 
-    padding: 2rem 4rem;
-    font-size: 2.2rem;
-    background-color: rgba(8,134,42, 0.4);
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: rgba(8, 134, 42, 0.4);
     color: rgb(60, 60, 60);
     border-radius: 50%;
 }
 
+.active {
+    display: none;
+}
+
+.on {
+    display: block;
+}
