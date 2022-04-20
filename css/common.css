@@ -647,8 +647,8 @@ body.-fixed {
     left: 0;
     z-index: 2000;
     width: 100%;
-    max-height: calc(100vh - 10rem);
-    /* max-height: calc(var(--var, 1vh) * 100); */
+    /* max-height: calc(100vh - 5rem); */
+    max-height: calc(var(--var, 1vh) * 100);
     background-color: #fff;
     
 }
