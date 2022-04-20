@@ -649,14 +649,15 @@ body.-fixed {
     width: 100%;
     max-height: calc(100vh - 5rem);
     background-color: #fff;
-    min-height: fill-available;
+    
 }
 
-/* @media (max-width : 768px) {
+@media (max-width : 768px) {
     .layer {
-        max-height: calc(100vh - 5rem);
+        min-height: calc(100vh - 5rem);
+        min-height: fill-available;
     }
-} */
+}
 
 .layer.-active {
     display: block;
