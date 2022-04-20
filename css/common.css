@@ -647,17 +647,18 @@ body.-fixed {
     left: 0;
     z-index: 2000;
     width: 100%;
-    max-height: calc(100vh - 5rem);
+    /* max-height: calc(100vh - 5rem); */
+    max-height: calc(var(--var, 1vh) * 100 -5rem);
     background-color: #fff;
     
 }
 
-@media (max-width : 768px) {
+/* @media (max-width : 768px) {
     .layer {
         min-height: calc(100vh - 5rem);
         min-height: fill-available;
     }
-}
+} */
 
 .layer.-active {
     display: block;
